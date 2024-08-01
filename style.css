@@ -122,6 +122,7 @@ html, body {
     height: 45px;
     width: 35px;
     border-radius: 20px;
+
 }
 
 #nav .sidebar {
@@ -247,7 +248,7 @@ html, body {
     flex-direction: column;
     position: absolute;
     left: 55%;
-    top: 15px;
+    top: 45px;
     width: 50%;
     /*align-items:left;*/
     text-align: left;
