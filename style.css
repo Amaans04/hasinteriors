@@ -66,14 +66,13 @@ html, body {
     text-decoration: none;
     color: #292929;
     display: flex;
-    padding: 5px 30px 5px 30px;
+    padding: 8px 30px 5px 30px;
     align-items: center;
     justify-content: center;
     height: 100%;
     transition: all 0.5s ease;
     border-radius: 10px;
-    margin: 5px 5px;
-
+    margin: 6px 5px 5px 5px;
 }
 
 #nav a:hover {
@@ -123,7 +122,8 @@ html, body {
 
 #nav img {
     position: absolute;
-    left: 20px;
+    top: 5px;
+    left: 30px;
     height: 45px;
     width: 35px;
     border-radius: 20px;
