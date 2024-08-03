@@ -16,11 +16,13 @@ html, body {
 
 ::-webkit-scrollbar {
     width: 8px; /* Adjust the width as needed */
+    border-radius: 10px;
+    background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
     background: #292929;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -62,9 +64,9 @@ html, body {
 #nav a {
     /*margin-top: 0px;*/
     text-decoration: none;
-    color: black;
+    color: #292929;
     display: flex;
-    padding: 0 30px 2px 30px;
+    padding: 5px 30px 5px 30px;
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -90,6 +92,8 @@ html, body {
     margin-right: 2px;
     border-radius: 5px;
     background-color: transparent;
+    left: 5px;
+    width: 99%;
     /*backdrop-filter: blur(10px) ;*/
     /*position: fixed;*/
 }
@@ -105,6 +109,7 @@ html, body {
 }
 
 #nav a {
+    font-weight: 650;
     right: 43px;
     top: -3px;
     text-wrap: nowrap;
@@ -241,6 +246,7 @@ html, body {
 .ourstory .lft img {
     width: 100%;
     height: 90%;
+    border-radius: 10px;
 }
 
 .ourstory .rght {
@@ -248,7 +254,7 @@ html, body {
     flex-direction: column;
     position: absolute;
     left: 55%;
-    top: 45px;
+    top: 10px;
     width: 50%;
     /*align-items:left;*/
     text-align: left;
@@ -267,6 +273,7 @@ html, body {
 .ourstory .rght img {
     width: 70%;
     height: 50%;
+    border-radius: 10px;
 }
 
 #page3 {
@@ -410,6 +417,11 @@ html, body {
     padding-top: 20px;
     padding-bottom: 5px;
 }
+#fr a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 
 #fl {
     display: flex;
@@ -437,6 +449,12 @@ html, body {
     font-weight: 100;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+#creds a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+}
 
 #page6 {
     display: none;
@@ -458,12 +476,17 @@ html, body {
     #nav {
         justify-content: center;
         align-items: center;
-        width: 90%;
-        left: 4%;
+        width: 80%;
+        left: 7%;
+        border-radius: 50px;
+        background-color: white;
+        color: #000;
+        height: 7vh;
+        top: 12px;
     }
 
     #nav a {
-        right: 15px;
+        right: 5px;
         justify-content: center;
         align-items: center;
         top: -3px;
@@ -494,7 +517,8 @@ html, body {
         justify-content: left;
     }
     #nav img{
-        top: -1px;
+        top: 6px;
+        left: 25px;
         height: 40px;
         width: 30px;
     }

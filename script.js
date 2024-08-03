@@ -1,18 +1,14 @@
-gsap.registerPlugin(ScrollTrigger);
-
-ScrollTrigger.normalizeScroll(true);
-
 gsap.to("#nav", {
     backgroundColor: "#fff",
     color: "#000",
     duration: 0.5,
-    height: "6vh",
+    height: "7vh",
     y: +10,
     // scrollTrigger : normalizeScroll(true),
     scrollTrigger: {
         trigger: "#nav",
         scroller: "body",
-        markers:true,
+        // markers:true,
         start: "top -15%",
         end: "top -11%",
         scrub: 2,
