@@ -1,0 +1,8 @@
+_legacy-static
+_original-backup
+.idea
+.vscode
+.next
+node_modules
+.playwright-mcp
+SEO-AUDIT.md
