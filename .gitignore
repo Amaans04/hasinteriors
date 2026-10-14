@@ -1,0 +1,16 @@
+# dependencies & build output
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# deploy / local tooling
+.vercel
+.playwright-mcp
+.env*.local
+.DS_Store
+
+# local backups of the old static site (originals live in git history)
+_legacy-static
+_original-backup
